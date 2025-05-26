@@ -1,6 +1,4 @@
-
-
-webhook_url = "https://discord.com/api/webhooks/1376487832482480180/KTZ0kGvH0zioupOzvU5nXgqI4kGdY-dLwOrqx-8-0XuYChMMlR4y8MZfTO1BSGIuve-A"
+webhook_url = "Discard-Webhook-URL"
 
 import os
 try:
